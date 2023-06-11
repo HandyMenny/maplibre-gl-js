@@ -277,6 +277,7 @@ async function getImageFromStyle(styleForTest: StyleWithTestData, page: Page): P
         box-sizing:content-box;
         width:${width}px;
         height:${height}px;
+        overflow: hidden;
     }</style>
 </head>
 <body>
